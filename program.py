@@ -1,5 +1,9 @@
 # My Python Program
 # Task:  Use the function myFunction to output a simple "Hello World!" statement
 
-def myFunction():
-    assert program.myFunction() == "Hello World!"
+def myFunction(name):
+outcome = "Hello" + name
+return(outcome)
+print(myFunction("world"))
+
+    
